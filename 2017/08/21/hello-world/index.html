@@ -101,7 +101,7 @@
 <meta property="og:site_name" content="My first blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-28T08:51:57.328Z">
+<meta property="og:updated_time" content="2017-08-28T09:21:39.521Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -407,6 +407,8 @@
           
   <div class="comments" id="comments">
     
+      <div id="vcomments"></div>
+    
   </div>
 
 
@@ -653,6 +655,21 @@
 
 
 
+
+  
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine@1.1.4/dist/Valine.min.js"></script>
+  <script type="text/javascript">
+    new Valine({
+        av: AV,
+        el: '#vcomments' ,
+        verify: false,
+        notify: false,
+        app_id: 'ihrOyYOmU2tS5Je9IesVaTnz-gzGzoHsz',
+        app_key: 'HpvppdPNbg4imCG4tlNUoaQn',
+        placeholder: 'Comment input placeholder'
+    });
+  </script>
 
 
 
